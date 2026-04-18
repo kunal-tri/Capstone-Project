@@ -23,16 +23,27 @@ Open PowerShell and run the following commands to set up your isolated environme
 
 PowerShell
 # Create a Python 3.12 virtual environment
+
+
 python -m venv ven
 
 # Activate the virtual environment
+
+
 .\ven\Scripts\activate
 3. Installation
+
+
 Install the required dependencies:
 
 PowerShell
+
 pip install -r requirements.txt
+
+
 4. Configuration (.env setup)
+
+5. 
 You must create a file named .env in the root directory. This file is ignored by Git to keep your keys secret. Add your keys in the following format:
 
 Plaintext
